@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ar"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TEDxKSAUH</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!--
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 	https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Sanchez:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Theme Style -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<style>
+
+@font-face {
+    font-family: 'GE Dinar One';
+    font-weight: lighter;
+    src: url("{% static 'fonts/ge-dinar-one-light.woff' %}");
+}
+
+@font-face {
+    font-family: 'GE Dinar One';
+    font-weight: normal;
+    src: url("{% static 'fonts/ge-dinar-one-med.woff' %}");
+}
+
+body {
+  font-family: 'GE Dinar One', serif;
+}
+
+
+.see-more{
+	display: none;
+
+}
+
+#clockdiv{
+	font-family: "Montserrat", arial, sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 25px;
+}
+
+#clockdiv > div{
+	background: #12121200;
+	border: 3px solid rgba(255,255,255,0.6);
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+
+}
+
+</style>
+</head>
+	<body>
+		<header role="banner" id="fh5co-header" style="background-image: url(images/X.jpg);" data-stellar-background-ratio="0.5">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="fh5co-intro-wrap">
+					<div class="fh5co-intro">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+								<img class="img-responsive" src="">
+							</div>
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<h3 class="fh5co-intro-lead animate-1 to-animate">Be ready</h3>
+								<br>
+									<div class="fh5co-intro-sub animate-2 to-animate" id="clockdiv">
+									  <div>
+									    <span class="days"></span>
+									    <div class="smalltext">Days</div>
+									  </div>
+									  <div>
+									    <span class="hours"></span>
+									    <div class="smalltext">Hours</div>
+									  </div>
+									  <div>
+									    <span class="minutes"></span>
+									    <div class="smalltext">Minutes</div>
+									  </div>
+									  <div>
+									    <span class="seconds"></span>
+									    <div class="smalltext">Seconds</div>
+									  </div>
+									</div>
+
+								<p class="fh5co-social text-center" id="fh5co-intro-social">
+									<a href="#" class="to-animate"><i class="icon-facebook-with-circle"></i></a>
+									<a href="#" class="to-animate"><i class="icon-twitter-with-circle"></i></a>
+									<a href="#" class="to-animate"><i class="icon-dribbble-with-circle"></i></a>
+									<a href="#" class="to-animate"><i class="icon-google-with-circle"></i></a>
+									<a href="#" class="to-animate"><i class="icon-instagram-with-circle"></i></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main role="main" id="fh5co-main">
+			<div class="container" id="bio-animate">
+				<div class="row row-padded">
+					<div class="col-md-3">
+						<h2 class="fh5co-section-heading to-animate">About<span class="fh5co-border"></span></h2>
+					</div>
+					<div class="col-md-8 col-md-push-1">
+						<div class="row">
+							<div class="col-md-6 to-animate">
+								<h6 class="fh5co-section-heading to-animate"><b>About <span style="color: #ff2b06;">TED</span></b></h6>
+											<p>
+												TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+											</p>
+											<p class="see-more text-faded">
+												The annual TED Conference takes place each spring in Vancouver, British Columbia. TED's media initiatives include TED.com, where new TED Talks are posted daily; the Open Translation Project, which provides subtitles and interactive transcripts as well as translations from volunteers worldwide; the educational initiative TED-Ed. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.
+											</P>
+											<p class="see-more text-faded">
+												Follow TED on <a href="http://twitter.com/TEDTalks" target="_blank">Twiiter</a>, or on <a href="http://www.facebook.com/TED" target="_blank">Facebook</a>.
+											</p>
+											<button data-action="more" class="btn btn-success btn-sm" id="see-more">See more</button>
+							</div>
+							<div class="col-md-6 to-animate">
+								<h6 class="fh5co-section-heading to-animate"><b>About <span style="color: #ff2b06;">TED<sup>x</sup></span></b></h6>
+								<p>TEDx, x = independently organized event
+									In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END .row -->
+			</div>
+			<!-- END .container -->
+
+			<div class="fh5co-section-seperator" style="background-image: url(images/tedxlaw.jpg);" data-stellar-background-ratio="0.5">
+				<div class="fh5co-overlay"></div>
+				<div class="container" id="counter-animate">
+					<div class="fh5co-section-content-wrap">
+						<div class="fh5co-section-content">
+								<div class="row">
+									<div class="col-md-12 text-center to-animate">
+										<blockquote>
+										<h1 id="font" style="color: #fff">لو أن</h1>
+										<h6 style="color: #fff"><b><span style="color: #ff2b06;">TED<sup>x</sup></span> KSAUHS</b></h6>
+
+										<p dir="rtl" class"text-center" style="color: #fff">
+											"لو أن" مفتاحٌ ثنائي الأحرف يفتح لنا أبوابًا لا متناهيةً من الاحتمالات، <br> مفتاحٌ قادرٌ على وضعنا  في محل المجهول (س) في معادلة الحياة، <br> تاركًا مهمة البحث عن المعادلة الصحيحة لإيجاد الحل المناسب علينا، <br> كل ما يتطلبه الأمر هو أن نتساءل "<b/> لو أن<b>"
+											</p>
+										</blockquote>
+
+
+								</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- END .container -->
+
+
+			<div class="container" id="projects-animate">
+				<div class="row row-padded">
+					<div class="col-md-3">
+						<h2 class="fh5co-section-heading to-animate">Speakers<span class="fh5co-border"></span></h2>
+						<p class="to-animrgba(13, 14, 13, 0.9)ate"></p>
+					</div>
+					<div class="col-md-8 col-md-push-1">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/tarad.jpg" class="image-popup">
+									<div class="fh5co-overlay-text">طراد باسنبل</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/tarad.jpg" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/sara.jpg" class="image-popup">
+									<div class="fh5co-overlay-text">سارة الحقباني</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/sara.jpg" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/abdull.JPG" class="image-popup">
+									<div class="fh5co-overlay-text">عبدالرحمن باجنيد</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/abdull.JPG" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/hind.JPG" class="image-popup">
+									<div class="fh5co-overlay-text">د.هند المديميغ</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/hind.JPG" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/musab.JPG" class="image-popup">
+									<div class="fh5co-overlay-text">مصعب الشريف</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/musab.JPG" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="images/noor.JPG" class="image-popup">
+									<div class="fh5co-overlay-text">نور الأحمدي</div>
+									<div class="fh5co-overlay"></div>
+									<img src="images/noor.JPG" alt="Free HTML5 Template" class="img-responsive">
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- END .row -->
+			</div>
+			<!-- END .container -->
+
+			<div class="fh5co-section-seperator" id="testimony-animate" style="background-image: url(images/question.jpg);" data-stellar-background-ratio="0.5">
+				<div class="fh5co-overlay"></div>
+				<div class="container">
+					<div class="fh5co-section-content-wrap">
+						<div class="fh5co-section-content">
+							<div class="row">
+								<div class="col-md-9 col-md-offset-1 fh5co-testimony to-animate">
+									<blockquote>
+										<p class="text-center quote" dir="rtl">جميع أحلامنا تمثل (<b>س</b>)، <br>كل ما نحتاجه هو المعادلة <em>الصحيحة</em>. <cite class="author"></cite></p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END .container -->
+
+			<div class="container" id="services-animate">
+				<div class="row row-padded">
+					<div class="col-md-3">
+						<h2 class="fh5co-section-heading to-animate">Organizers<span class="fh5co-border"></span></h2>
+						<p class="to-animate"></p>
+					</div>
+					<div class="col-md-8 col-md-push-1">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="fh5co-accordion-wrap">
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-man"></i>Leaders</h3>
+										</div>
+										<div class="fh5co-accordion-body">
+											<p>
+												-نواف  العوفي <br>
+												-غاده  ال مجري <br>
+												-زياد  العنزي <br>
+												- ساره  السعدون <br>
+												- صبا  المطيري <br>
+												- تالا  البصري
+
+											</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-clapperboard"></i>Stage Team</h3>
+										</div>
+										<div class="fh5co-accordion-body active">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio at molestias atque in adipisci vero porro nam, enim excepturi esse. Quisquam, cupiditate inventore excepturi totam sint, nisi illo sit dicta dignissimos amet alias facilis molestiae in quaerat. Veritatis doloribus voluptates esse culpa perferendis laudantium sunt dolor laborum, odit dolores.</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-hand"></i>Venue Team</h3>
+										</div>
+										<div class="fh5co-accordion-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio at molestias atque in adipisci vero porro nam, enim excepturi esse. Quisquam, cupiditate inventore excepturi totam sint, nisi illo sit dicta dignissimos amet alias facilis molestiae in quaerat. Veritatis doloribus voluptates esse culpa perferendis laudantium sunt dolor laborum, odit dolores.</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-laptop"></i>Organising and <br> Registration Team</h3>
+										</div>
+										<div class="fh5co-accordion-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio at molestias atque in adipisci vero porro nam, enim excepturi esse. Quisquam, cupiditate inventore excepturi totam sint, nisi illo sit dicta dignissimos amet alias facilis molestiae in quaerat. Veritatis doloribus voluptates esse culpa perferendis laudantium sunt dolor laborum, odit dolores.</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-mobile"></i>Content team</h3>
+										</div>
+										<div class="fh5co-accordion-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio at molestias atque in adipisci vero porro nam, enim excepturi esse. Quisquam, cupiditate inventore excepturi totam sint, nisi illo sit dicta dignissimos amet alias facilis molestiae in quaerat. Veritatis doloribus voluptates esse culpa perferendis laudantium sunt dolor laborum, odit dolores.</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+									<div class="fh5co-accordion to-animate">
+										<div class="fh5co-accordion-head">
+											<a href="#" class="fh5co-accordion-toggle js-fh5co-accordion-toggle">Show More</a>
+											<h3><i class="icon-mail"></i>Media Team</h3>
+										</div>
+										<div class="fh5co-accordion-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio at molestias atque in adipisci vero porro nam, enim excepturi esse. Quisquam, cupiditate inventore excepturi totam sint, nisi illo sit dicta dignissimos amet alias facilis molestiae in quaerat. Veritatis doloribus voluptates esse culpa perferendis laudantium sunt dolor laborum, odit dolores.</p>
+										</div>
+									</div>
+									<!-- END .fh5co-accordion -->
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END .row -->
+
+			</div>
+			<!-- END .container -->
+
+
+		</main>
+
+		<footer role="contentinfo" id="fh5co-footer">
+			<div class="container" id="footer-animate">
+				<div class="row row-padded">
+					<div class="col-md-8 col-md-push-4">
+						<p class="to-animate">"This independent TEDx event is operated under license from TED."</p>
+						<p class="to-animate">بُني بأيدٍ طلابية. حقك في النسخ مكفول.</p>
+
+					</div>
+				</div>
+			</div>
+			<!-- END .container -->
+		</footer>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- countTo -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- Magnific Popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+<script>
+$(function(){
+	$("#see-more").click(function(){
+		if ($(this).data("action") == 'more'){
+			$("p.see-more").show('slow');
+			$(this).data("action", "less");
+			$(this).html("See less");
+		} else {
+			$("p.see-more").hide('slow');
+			$(this).data("action", "more");
+			$(this).html("See more");
+		}
+
+	});
+});
+
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+</script>
+
+	</body>
+</html>
