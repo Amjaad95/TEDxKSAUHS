@@ -1,0 +1,15 @@
+<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+  <a href="images/noor.JPG" class="image-popup">
+    <div class="fh5co-overlay-text">نور الأحمدي</div>
+    <div class="fh5co-overlay"></div>
+    <img src="images/noor.JPG" alt="Free HTML5 Template" class="img-responsive">
+  </a>
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+  <a href="images/musab.JPG" class="image-popup">
+    <div class="fh5co-overlay-text">مصعب الشريف</div>
+    <div class="fh5co-overlay"></div>
+    <img src="images/musab.JPG" alt="Free HTML5 Template" class="img-responsive">
+  </a>
+</div>
