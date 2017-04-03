@@ -102,7 +102,7 @@ body {
 }
 
 #clockdiv div > span{
-	padding: 15px;
+	padding: 20.5px;
 	border-radius: 3px;
 	display: inline-block;
 }
@@ -111,8 +111,34 @@ body {
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
-
 }
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: 2px solid #f8f5f499;
+}
+
+.button3:hover {
+    background-color: white;
+    color: black;
+}
+
+
 
 </style>
 </head>
@@ -147,10 +173,9 @@ body {
 									    <div class="smalltext">Seconds</div>
 									  </div>
 									</div>
-
-								<p class="fh5co-social text-center" id="fh5co-intro-social">
-									<a href="https://twitter.com/TEDxKSAUHS" class="to-animate"><i class="icon-twitter-with-circle"></i></a>
-								</p>
+							<p class="fh5co-social text-center" id="fh5co-intro-social">
+								<a href="https://twitter.com/TEDxKSAUHS" class="to-animate"><i class="icon-twitter-with-circle"></i></a>
+							</p>
 							</div>
 						</div>
 					</div>
@@ -201,6 +226,10 @@ body {
 								<div class="row">
 									<div class="col-md-12 text-center to-animate">
 										<blockquote>
+											<p style="color: #fff">
+												"ينظّم نادي الطلاب في جامعة الملك سعود بن عبد العزيز للعلوم الصحية <br> تدكس في يوم السبت 15 أبريل في مركز المؤتمرات بالجامعة!"<br>
+											</p>
+											<button class="button button3" onclick="location.href='https://enjazportal.com/tedx/'">تسجيل الحضور</button>
 										<h1 id="font" style="color: #fff">لو أن</h1>
 										<h6 style="color: #fff"><b><span style="color: #ff2b06;">TED<sup>x</sup></span> KSAUHS</b></h6>
 
@@ -263,19 +292,19 @@ body {
 									<img src="images/saud.jpg" alt="Free HTML5 Template" class="img-responsive">
 								</a>
 							</div>
-							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="images/meno.JPG" class="image-popup">
-									<div class="fh5co-overlay-text">?</div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/meno.JPG" alt="Free HTML5 Template" class="img-responsive">
-								</a>
+								<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+							  <a href="images/noor.JPG" class="image-popup">
+							    <div class="fh5co-overlay-text">نور الأحمدي</div>
+							    <div class="fh5co-overlay"></div>
+							    <img src="images/noor.JPG" alt="Free HTML5 Template" class="img-responsive">
+							  </a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="images/meno.JPG" class="image-popup">
-									<div class="fh5co-overlay-text">?</div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/meno.JPG" alt="Free HTML5 Template" class="img-responsive">
-								</a>
+							  <a href="images/musab.JPG" class="image-popup">
+							    <div class="fh5co-overlay-text">مصعب الشريف</div>
+							    <div class="fh5co-overlay"></div>
+							    <img src="images/musab.JPG" alt="Free HTML5 Template" class="img-responsive">
+							  </a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
 								<a href="images/meno.JPG" class="image-popup">
@@ -458,14 +487,16 @@ body {
 		</main>
 
 		<footer role="contentinfo" id="fh5co-footer">
-			<div class="container" id="footer-animate">
-				<div class="row row-padded">
-					<div class="col-md-8 col-md-push-4">
-						<p class="to-animate">"This independent TEDx event is operated under license from TED."</p>
+					<div class="container" id="footer-animate">
+						<div class="row row-padded">
+							<div class="col-xs-12">
+								<p class="to-animate text-center">This independent TEDx event is operated under license from TED.</p>
+		                                                <hr>
+								<p dir="rtl" class="to-animate text-center">بُني بأيدٍ طلابيّة. حقّك في النسخ مكفول.</p>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<!-- END .container -->
+					<!-- END .container -->
 		</footer>
 
 		<!-- jQuery -->
